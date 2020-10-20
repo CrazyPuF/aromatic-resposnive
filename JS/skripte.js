@@ -1,6 +1,6 @@
 var slideIndex = 1;
 showSlides(slideIndex);          //aktivira funkciju za slajd
-
+autoslides();
 // Next/previous controls
 function plusSlides(n) {
 console.log(n);
@@ -38,7 +38,7 @@ function activedots(dots) {
 
   }
 }
-/*
+
  function autoslides() {
 
 
@@ -59,7 +59,7 @@ function activedots(dots) {
   dots[slideIndex-1].className += " active";
   setTimeout(showSlides,5000); // Change image every 2 seconds
 }
-*/
+
 
 function myFunction() {
   var x = document.getElementById("myTopnav");
