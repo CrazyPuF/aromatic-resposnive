@@ -1,6 +1,5 @@
 var slideIndex = 1;
 showSlides(slideIndex);          //aktivira funkciju za slajd
-autoslides();
 // Next/previous controls
 function plusSlides(n) {
 console.log(n);
@@ -25,6 +24,7 @@ console.log(dots);
   activedots(dots);
   slides[slideIndex-1].style.display = "block";           //
   dots[slideIndex-1].className += " active";
+  autoslides();
 }
 
 function hideSlides(slides) {                               //sakriva slideove
